@@ -5,9 +5,6 @@ map gi :vsc Edit.GoToImplementation<CR>
 
 let mapleader=" "
 
-" break out of the tyranny of text! Navigate by method
-nnoremap <leader>m :vsc Edit.NextMethod<cr>
-nnoremap <leader>M :vsc Edit.PreviousMethod<cr>
 
 nnoremap R :vsc Refactor.Rename<cr>
 
