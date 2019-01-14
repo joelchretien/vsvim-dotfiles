@@ -3,6 +3,7 @@
 
 map gi :vsc Edit.GoToImplementation<CR>
 
+" Map the normal leader key
 let mapleader=" "
 
 nnoremap <leader>i :vsc Edit.FormatDocument<cr>
